@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Animation on Scroll Demo</title>
+  </head>
+  <body>
+    <header class="main-header bg-dark">
+      <h1><span>Kevin Zhang's</span> Cruise Gallery</h1>
+      <p>Life is good if you can 🚢cruise🚢 once a while!!</p>
+      <p>
+        <img class="avatar" src="img/logo.png" alt="Kevin Zhang" />
+      </p>
+    </header>
+
+    <main class="container">
+      <section class="card">
+        <img src="img/HarmonyOfSeas.jpg" alt="" />
+        <div>
+          <h3>Dec-2019, Harmony of Seas, RCL</h3>
+          <p>
+            7-Night cruise, Brandon(10), Elena(7.5): East Carribean. This cruise is so far largest cruise ship in whole
+            world (5479 passengers + 2100 crew)!
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left">
+        <img src="img/ncl_bliss.jpg" alt="" />
+        <div>
+          <h3>Dec-2018, NCL Bliss</h3>
+          <p>
+            7-Night cruise, Brandon(9), Elena(6.5): West Carribean. With 4 other families. Bliss was newest & largest of
+            NCL in 2018
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-right">
+        <img src="img/ncl_escape.jpg" alt="" />
+        <div>
+          <h3>Dec-2017, NCL Escape</h3>
+          <p>
+            7-Night cruise, Brandon(8), Elena(5.5): West Carribean. With 2 other familes. This is our first experience
+            with NCL.
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left">
+        <img src="img/rcl_independence_of_sea.jpg" alt="" />
+        <div>
+          <h3>Dec-2016, RCL Independency of Seas</h3>
+          <p>
+            5-Night cruise, Brandon(7), Elena(4.5): West Carribean. Both kids started appreciating the best vacation
+            format: cruise.
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-right">
+        <img src="img/disney_magic.jpg" alt="" />
+        <div>
+          <h3>Dec-2015, Disney Magic</h3>
+          <p>
+            4-Night cruise, Brandon(6), Elena(3.5): West Carribean. 萱萱 was still too young to understand what is a
+            cruise.
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+      <section class="card" data-aos="fade-left">
+        <img src="img/rcl_majesty_of_sea.jpg" alt="" />
+        <div>
+          <h3>Aug-2008, RCL Majesty of Seas</h3>
+          <p>
+            无娃时代。和3家: West Carribean. 感慨那时年轻的我们。 这是我们初尝cruise.
+            当然也不太懂如何更好的利用cruise方方面面的好资源。
+          </p>
+          <a href="#" class="btn">Check it Out</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="center bg-dark">
+      <p>Email: <strong>kzcruiseanywhere@gmail.com</strong></p>
+      <p>Phone: <strong>666-888-8888</strong></p>
+      <p>和凯文一家去度邮轮 &copy; 2019</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 400,
+        duration: 1000
+      });
+    </script>
+  </body>
+</html>
