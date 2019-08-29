@@ -34,8 +34,8 @@ a {
 }
 
 .main-header h1 {
-  font-size: 3rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
   line-height: 1.2;
 }
 
@@ -44,7 +44,7 @@ a {
 }
 
 .main-header p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
 }
 
 .main-header img.avatar {
