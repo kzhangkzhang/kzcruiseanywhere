@@ -1,0 +1,12 @@
+{
+  "name": "030_animateonscroll",
+  "version": "1.0.0",
+  "description": "learning animation when scrolling",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Kevin Zhang",
+  "license": "ISC",
+  "home": "https://kzhangkzhang.github.io/kzcruiseanywhere/index.html"
+}
