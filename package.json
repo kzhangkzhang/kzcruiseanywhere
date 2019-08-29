@@ -4,7 +4,7 @@
   "description": "learning animation when scrolling",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d ."
   },
   "author": "Kevin Zhang",
   "license": "ISC",
